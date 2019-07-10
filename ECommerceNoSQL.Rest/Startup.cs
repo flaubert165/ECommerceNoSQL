@@ -18,11 +18,9 @@ namespace ECommerceNoSQL.Rest
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            //services.Configure<ECommerceDbSettings>(Configuration.GetSection(nameof(ECommerceDbSettings)));
-            //services.AddSingleton<IECommerceDbSettings>(sp => sp.GetRequiredService<IOptions<ECommerceDbSettings>>().Value);
-            
+        {   
             services.AddScoped<IMongoDbContext, MongoDbContext>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

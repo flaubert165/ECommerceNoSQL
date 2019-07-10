@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Shared", "ECommerceNoSQL.Shared\ECommerceNoSQL.Shared.csproj", "{E543BD59-0D1A-49C0-8963-C0FDE6DEFB74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Domain.Tests", "ECommerceNoSQL.Domain.Tests\ECommerceNoSQL.Domain.Tests.csproj", "{5180DE13-918C-4415-A6B3-18509526A0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.NoSQL.Services.Tests", "ECommerceNoSQL.Services.Tests\ECommerce.NoSQL.Services.Tests.csproj", "{8E7C7979-866F-4923-ABAF-0E3113181749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Infrastructure.Tests", "ECommerceNoSQL.Infrastructure.Tests\ECommerceNoSQL.Infrastructure.Tests.csproj", "{2B3F1238-C09D-4C45-A689-C8F8C80965DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Rest.Tests", "ECommerceNoSQL.Rest.Tests\ECommerceNoSQL.Rest.Tests.csproj", "{642A3A12-82FF-40AF-912B-81AA2EFB3F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNoSQL.Shared.Tests", "ECommerceNoSQL.Shared.Tests\ECommerceNoSQL.Shared.Tests.csproj", "{9BD8A394-3FFD-4399-B829-A63D12AF4D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{E543BD59-0D1A-49C0-8963-C0FDE6DEFB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E543BD59-0D1A-49C0-8963-C0FDE6DEFB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E543BD59-0D1A-49C0-8963-C0FDE6DEFB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5180DE13-918C-4415-A6B3-18509526A0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5180DE13-918C-4415-A6B3-18509526A0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5180DE13-918C-4415-A6B3-18509526A0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5180DE13-918C-4415-A6B3-18509526A0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7C7979-866F-4923-ABAF-0E3113181749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7C7979-866F-4923-ABAF-0E3113181749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7C7979-866F-4923-ABAF-0E3113181749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7C7979-866F-4923-ABAF-0E3113181749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3F1238-C09D-4C45-A689-C8F8C80965DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3F1238-C09D-4C45-A689-C8F8C80965DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3F1238-C09D-4C45-A689-C8F8C80965DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3F1238-C09D-4C45-A689-C8F8C80965DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642A3A12-82FF-40AF-912B-81AA2EFB3F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642A3A12-82FF-40AF-912B-81AA2EFB3F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642A3A12-82FF-40AF-912B-81AA2EFB3F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642A3A12-82FF-40AF-912B-81AA2EFB3F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD8A394-3FFD-4399-B829-A63D12AF4D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD8A394-3FFD-4399-B829-A63D12AF4D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD8A394-3FFD-4399-B829-A63D12AF4D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD8A394-3FFD-4399-B829-A63D12AF4D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
