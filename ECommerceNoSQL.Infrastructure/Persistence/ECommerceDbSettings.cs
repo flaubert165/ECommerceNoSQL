@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace ECommerceNoSQL.Infrastructure.DataContext
 {
     public class ECommerceDbSettings : IECommerceDbSettings
